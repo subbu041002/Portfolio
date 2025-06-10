@@ -1223,3 +1223,61 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+.projects {
+  padding: 40px;
+  background-color: #0a0a23;
+  color: white;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.projects span {
+  color: #fcd34d; /* Yellow accent */
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.project-card {
+  background-color: #e5e5e5;
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.full-width {
+  grid-column: span 2;
+}
